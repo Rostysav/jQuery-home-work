@@ -124,6 +124,11 @@ header {
 	.navigation-list {
 		display: none;
 	}
+	.navigation-list li {
+		position: relative;
+	    display: block;
+	    right: 65px;
+	}
 }
 
 		/*Main baner----------------------------------------------------
@@ -232,6 +237,7 @@ input[placeholder]{
 	width: 100%;
 	font-size: 0;
 	text-align: center;
+	overflow: hidden;
 }
 
 .activities-list {
@@ -270,6 +276,7 @@ input[placeholder]{
 .deluxe-rooms {
 	position: relative;
 	padding: 105px 0 90px;
+	width: 100%;
 }
 .delux-list-p {
 	font-family: "Open Sans";
